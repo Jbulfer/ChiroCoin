@@ -1,7 +1,6 @@
 # ChiroCoin
 We offer a faster, cost efficient, user friendly experience for Health Care Providers and Patients.
 Offering rewards for the patients and generate wealth within the profession. 
-ChiroCoin is a revolutionary decentralized currency designed specifically for the chiropractic profession and holistic healthcare providers. In a market overflowing with financial options for patients, most prioritize profit over proper care and devalue the credibility of our profession. ChiroCoin aims to keep patients' trust by closing the loopholes that allow third-party intermediaries to drain resources from our industry. This document presents the ChiroCoin Protocol and its potential to benefit both patients and the growth of the profession.
 The patient arrives at the chiropractic clinic for their appointment.
 After the appointment, the chiropractor gives the patient a QR code to scan and pay for the services they received.
 The patient uses their smartphone to scan the QR code.
