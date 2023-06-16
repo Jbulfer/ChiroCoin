@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <title>ChiroCoin</title>
+</head>
+<body>
+    <h1>The Menu</h1>
+    <div class="services-container">
+        <form action="{{ url_for('generate_qr_code_request', service='chiropractic') }}" method="POST" class="service-form">
+            <div class="service-box chiropractic">
+                <h2>Chiropractic</h2>
+                <p>100 USDC</p>
+            </div>
+            <button type="submit">Select</button>
+        </form>
+        <form action="{{ url_for('generate_qr_code_request', service='acupuncture') }}" method="POST" class="service-form">
+            <div class="service-box acupuncture">
+                <h2>Acupuncture</h2>
+                <p>120 USDC</p>
+            </div>
+            <button type="submit">Select</button>
+        </form>
+        <form action="{{ url_for('generate_qr_code_request', service='massage') }}" method="POST" class="service-form">
+            <div class="service-box massage">
+                <h2>Massage</h2>
+                <p>50 USDC</p>
+            </div>
+            <button type="submit">Select</button>
+        </form>
+    </div>
+</body>
+</html>

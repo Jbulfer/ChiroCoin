@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <title>Claim Chirocoin</title>
+</head>
+<body>
+    <h1>Claim Chirocoin</h1>
+    <form action="{{ url_for('claim_chirocoin') }}" method="POST">
+        <label for="wallet_address">XRP Ledger Wallet Address:</label>
+        <input type="text" id="wallet_address" name="wallet_address" required>
+        <button type="submit">Claim Chirocoin</button>
+    </form>
+</body>
+</html>

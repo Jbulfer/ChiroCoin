@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+.services-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 2rem 0;
+}
+
+.service-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.service-box {
+    width: 200px;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+.chiropractic {
+    background-color: #f8e9e9;
+}
+
+.acupuncture {
+    background-color: #e9f3f8;
+}
+
+.massage {
+    background-color: #f3e9f8;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.qr-code-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.qr-code-container img {
+    width: 300px;
+    height: 300px;
+}
+
+.payment-details {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+.payment-box {
+    width: 200px;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.total {
+    background-color: #f8e9e9;
+}
+
+.reward {
+    background-color: #e9f3f8;
+}
+
+.service-charge {
+    background-color: #f3e9f8;
+}

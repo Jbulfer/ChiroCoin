@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Payment Details</h1>
+    <div class="qr-code-container">
+        <h2>Scan the QR code to pay</h2>
+        <img src="data:image/png;base64,{{ qr_code_b64 }}" alt="QR Code" />
+    </div>
+    <div class="payment-details">
+        <div class="payment-box total">
+            <h2>Total Price</h2>
+            <p>${{ total }}</p>
+        </div>
+        <div class="payment-box reward">
+            <h2>ChiroCoin Rewards</h2>
+            <p>${{ reward }}</p>
+        </div>
+        <div class="payment-box service-charge">
+            <h2>Service Charge</h2>
+            <p>${{ transaction_fee }}</p>
+        </div>
+    </div>
+</body>
+</html>
